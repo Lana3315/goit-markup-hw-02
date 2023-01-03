@@ -20,6 +20,8 @@ body {
 
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
 }
 /* Nav-bar */
 .logo-nav {
@@ -47,8 +49,6 @@ ul {
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
 }
 .nav-bar .link:hover,
 .nav-bar .link:focus {
@@ -61,8 +61,6 @@ ul {
   color: var(--secondary-text-color);
   text-decoration: none;
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
 }
 .list .contact:hover,
 .list .contact:focus {
@@ -80,8 +78,6 @@ ul {
 
   letter-spacing: 0.04em;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .buttons .button-list:active {
@@ -101,9 +97,6 @@ h3 {
 }
 p {
   color: var(--secondary-text-color);
-
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 /* Footer */
@@ -126,7 +119,4 @@ footer .logo:focus {
 }
 footer p {
   color: var(--footer-paragraph);
-
-  font-size: 16px;
-  line-height: 1.5;
 }
