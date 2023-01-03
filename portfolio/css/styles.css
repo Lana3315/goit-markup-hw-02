@@ -1,0 +1,132 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --accent-link-color: #404bbf;
+  --accent-logo-color: #4d5ae5;
+  --main-background-color: #ffffff;
+  --button-background: #f4f4fd;
+  --button-main-text: #4d5ae5;
+  --button-text-active: #ffffff;
+  --button-active-background: #404bbf;
+  --footer-logo-color: #f4f4fd;
+  --footer-paragraph: #e7e9fc;
+  --button-border: #e7e9fc;
+}
+
+/* Body main colors */
+body {
+  background-color: var(--main-background-color);
+  color: var(--primary-text-color);
+
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+}
+/* Nav-bar */
+.logo-nav {
+  color: var(--primary-text-color);
+  text-decoration: none;
+
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.logo-nav:hover,
+.logo-nav:focus {
+  color: var(--accent-logo-color);
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--accent-logo-color);
+}
+ul {
+  list-style: none;
+}
+.nav-bar .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.nav-bar .link:hover,
+.nav-bar .link:focus {
+  color: var(--button-active-background);
+  text-decoration: none;
+}
+
+.list,
+.contact {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.list .contact:hover,
+.list .contact:focus {
+  color: var(--accent-link-color);
+  text-decoration: none;
+}
+
+/* Filters */
+.buttons [type="button"] {
+  color: var(--button-main-text);
+  background: var(--button-background);
+  border: 1px solid var(--button-border);
+  border-radius: 4px;
+  cursor: pointer;
+
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.buttons .button-list:active {
+  color: var(--button-text-active);
+  background: var(--button-active-background);
+}
+/* Main Section */
+.main a {
+  text-decoration: none;
+}
+h3 {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+p {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-text-color);
+}
+footer .logo {
+  color: var(--footer-logo-color);
+  text-decoration: none;
+
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+}
+footer .logo:hover,
+footer .logo:focus {
+  color: var(--accent-logo-color);
+}
+footer p {
+  color: var(--footer-paragraph);
+
+  font-size: 16px;
+  line-height: 1.5;
+}
