@@ -19,6 +19,7 @@ body {
   color: var(--primary-text-color);
 
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 /* Nav-bar */
 .logo-nav {
@@ -46,10 +47,9 @@ body {
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  list-style: none;
+  
 }
 .nav-list .link:hover,
 .nav-list .link:focus {
@@ -60,7 +60,6 @@ body {
   color: var(--secondary-text-color);
   text-decoration: none;
   font-style: normal;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   
@@ -113,7 +112,6 @@ body {
 }
 .section-text {
   color: var(--secondary-text-color);
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -138,7 +136,6 @@ footer .logo:focus {
 }
 footer p {
   color: var(--footer-paragraph);
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
