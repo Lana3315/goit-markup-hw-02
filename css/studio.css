@@ -110,7 +110,6 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-
 color:var(--button-text-active);
 
 flex: none;
