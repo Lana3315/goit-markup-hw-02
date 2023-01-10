@@ -119,12 +119,12 @@ flex-grow: 0;
 }
 [type="button"]:active {
   color: var(--button-text-active);
-  background: var(--secondary-text-color);
+  background: var(--button-main-text);
 }
 [type="button"]:hover,
 [type="button"]:focus {
   color: var(--button-text-active);
-  background: var(--secondary-text-color);
+  background: var(--button-main-text);
 }
 /* section one  */
 .section-title {
